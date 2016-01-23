@@ -6,10 +6,20 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: SprayCan
+    100004: SprayCanCover
     400000: //RootNode
+    400002: SprayCan
+    400004: SprayCanCover
     2300000: //RootNode
+    2300002: SprayCan
+    2300004: SprayCanCover
     3300000: //RootNode
+    3300002: SprayCan
+    3300004: SprayCanCover
     4300000: Cylinder
+    4300002: SprayCanCover
+    4300004: SprayCan
   materials:
     importMaterials: 1
     materialName: 0
