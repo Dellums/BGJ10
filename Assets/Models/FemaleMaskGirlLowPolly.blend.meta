@@ -16,6 +16,14 @@ ModelImporter:
     100016: Eyes
     100018: ClothsDinoBottom
     100020: ClothsDinoTop
+    100022: Cylinder
+    100024: Cylinder_001
+    100026: Cylinder_002
+    100028: MedievalBottom1
+    100030: MedievalBottom2
+    100032: MedBoots
+    100034: MedClothBreastPlate
+    100036: MedGloves
     400000: Boots
     400002: ClothsBottm
     400004: ClothsTop
@@ -27,6 +35,14 @@ ModelImporter:
     400016: Eyes
     400018: ClothsDinoBottom
     400020: ClothsDinoTop
+    400022: Cylinder
+    400024: Cylinder_001
+    400026: Cylinder_002
+    400028: MedievalBottom1
+    400030: MedievalBottom2
+    400032: MedBoots
+    400034: MedClothBreastPlate
+    400036: MedGloves
     2300000: Boots
     2300002: ClothsBottm
     2300004: ClothsTop
@@ -37,6 +53,14 @@ ModelImporter:
     2300014: Eyes
     2300016: ClothsDinoBottom
     2300018: ClothsDinoTop
+    2300020: Cylinder
+    2300022: Cylinder_001
+    2300024: Cylinder_002
+    2300026: MedievalBottom1
+    2300028: MedievalBottom2
+    2300030: MedBoots
+    2300032: MedClothBreastPlate
+    2300034: MedGloves
     3300000: Boots
     3300002: ClothsBottm
     3300004: ClothsTop
@@ -47,6 +71,14 @@ ModelImporter:
     3300014: Eyes
     3300016: ClothsDinoBottom
     3300018: ClothsDinoTop
+    3300020: Cylinder
+    3300022: Cylinder_001
+    3300024: Cylinder_002
+    3300026: MedievalBottom1
+    3300028: MedievalBottom2
+    3300030: MedBoots
+    3300032: MedClothBreastPlate
+    3300034: MedGloves
     4300000: Player
     4300002: Boots
     4300004: Hair
@@ -57,6 +89,14 @@ ModelImporter:
     4300014: Eyes
     4300016: ClothsDinoBottom
     4300018: ClothsDinoTop
+    4300020: MedievalBottom2
+    4300022: Cylinder_002
+    4300024: Cylinder_001
+    4300026: Cylinder
+    4300028: MedievalBottom1
+    4300030: MedGloves
+    4300032: MedBoots
+    4300034: MedClothBreastPlate
     7400000: Default Take
     9500000: //RootNode
   materials:
