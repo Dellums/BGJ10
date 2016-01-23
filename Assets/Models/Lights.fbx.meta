@@ -6,10 +6,19 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: LightFrame
+    100004: Lights
     400000: //RootNode
+    400002: LightFrame
+    400004: Lights
     2300000: //RootNode
+    2300002: LightFrame
+    2300004: Lights
     3300000: //RootNode
+    3300002: LightFrame
+    3300004: Lights
     4300000: Lights
+    4300002: LightFrame
   materials:
     importMaterials: 1
     materialName: 0
