@@ -1,27 +1,22 @@
 fileFormatVersion: 2
-guid: e784ee92e057d8246a57cbd804635537
-timeCreated: 1453515326
+guid: d4bfb54b6603fbd4c96b6162361da9bf
+timeCreated: 1453527146
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: SprayCan
-    100004: SprayCanCover
-    400000: //RootNode
-    400002: SprayCan
-    400004: SprayCanCover
-    2300000: //RootNode
-    2300002: SprayCan
-    2300004: SprayCanCover
-    3300000: //RootNode
-    3300002: SprayCan
-    3300004: SprayCanCover
-    4300000: Cylinder
-    4300002: SprayCanCover
-    4300004: SprayCan
-    7400000: Default Take
-    9500000: //RootNode
+    100000: Rock Left
+    100002: Rock Right
+    100004: //RootNode
+    400000: Rock Left
+    400002: Rock Right
+    400004: //RootNode
+    2300000: Rock Left
+    2300002: Rock Right
+    3300000: Rock Left
+    3300002: Rock Right
+    4300000: Rock Left
+    4300002: Rock Right
   materials:
     importMaterials: 1
     materialName: 0
@@ -80,7 +75,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
