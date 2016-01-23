@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 900a022f2932dec499dd7b09d4787b7e
+<<<<<<< HEAD
+=======
+timeCreated: 1453530331
+licenseType: Free
+>>>>>>> 9b4e24f5bcfb57c2dcfb832e00b921f7ea19301d
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -15,7 +20,10 @@ ModelImporter:
     3300002: Rock Right
     4300000: Rock Left
     4300002: Rock Right
+<<<<<<< HEAD
     9500000: //RootNode
+=======
+>>>>>>> 9b4e24f5bcfb57c2dcfb832e00b921f7ea19301d
   materials:
     importMaterials: 1
     materialName: 0
@@ -74,7 +82,11 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<< HEAD
   animationType: 2
+=======
+  animationType: 0
+>>>>>>> 9b4e24f5bcfb57c2dcfb832e00b921f7ea19301d
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
