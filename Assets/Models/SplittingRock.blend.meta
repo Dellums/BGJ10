@@ -1,10 +1,33 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: c86bc6c4b2cb3c3458788ca9bd72e081
 timeCreated: 1453526568
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName: {}
+=======
+guid: 8b6bd045aebbda6458053e979a12d048
+timeCreated: 1453527145
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Rock_Left
+    100002: Rock_Right
+    100004: //RootNode
+    400000: Rock_Left
+    400002: Rock_Right
+    400004: //RootNode
+    2300000: Rock_Left
+    2300002: Rock_Right
+    3300000: Rock_Left
+    3300002: Rock_Right
+    4300000: Rock_Left
+    4300002: Rock_Right
+    7400000: Default Take
+    9500000: //RootNode
+>>>>>>> origin/master
   materials:
     importMaterials: 1
     materialName: 0

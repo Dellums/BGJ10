@@ -1,27 +1,30 @@
 fileFormatVersion: 2
-guid: e784ee92e057d8246a57cbd804635537
-timeCreated: 1453515326
+guid: 86c70e402ff41a346a0325e8baad1e5b
+timeCreated: 1453527143
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: SprayCan
-    100004: SprayCanCover
-    400000: //RootNode
-    400002: SprayCan
-    400004: SprayCanCover
-    2300000: //RootNode
-    2300002: SprayCan
-    2300004: SprayCanCover
-    3300000: //RootNode
-    3300002: SprayCan
-    3300004: SprayCanCover
-    4300000: Cylinder
-    4300002: SprayCanCover
-    4300004: SprayCan
+    100000: Armature
+    100002: Bone
+    100004: Bone_001
+    100006: Bone_002
+    100008: Bone_003
+    100010: Bone_004
+    100012: //RootNode
+    100014: Sphere
+    400000: Armature
+    400002: Bone
+    400004: Bone_001
+    400006: Bone_002
+    400008: Bone_003
+    400010: Bone_004
+    400012: //RootNode
+    400014: Sphere
+    4300000: Sphere
     7400000: Default Take
     9500000: //RootNode
+    13700000: Sphere
   materials:
     importMaterials: 1
     materialName: 0
