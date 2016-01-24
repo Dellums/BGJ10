@@ -2248,7 +2248,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161416}
-  m_LocalRotation: {x: 0.2588191, y: -0.000000029802326, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0.1884099, y: 0, z: 0, w: 0.98209053}
   m_LocalPosition: {x: 0.35000008, y: 2.31, z: -2.29}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -2515,26 +2515,26 @@ MonoBehaviour:
   rotateSpeed: 3
   gravity: 1.3
   sprintModifier: 5
-  m_Animator: {fileID: 0}
+  m_Animator: {fileID: 9524780}
   PlayerSkins:
   - {fileID: 2100000, guid: 8c1e693a3c4bfcc4baccd337ecefacdd, type: 2}
   - {fileID: 2100000, guid: a0064298c09ec4049a453c8c0f274cd7, type: 2}
-  MimeHat: {fileID: 0}
-  MimeShirt: {fileID: 0}
-  MimePants: {fileID: 0}
-  MimeBands: {fileID: 0}
-  MimeStocking: {fileID: 0}
-  MimeShoes: {fileID: 0}
-  DinoPants: {fileID: 0}
-  DinoShirt: {fileID: 0}
-  MedShirt: {fileID: 0}
-  MedUnderpants: {fileID: 0}
-  MedGloves: {fileID: 0}
-  MedBoots: {fileID: 0}
-  MedArmorPant: {fileID: 0}
-  HubPants: {fileID: 0}
-  HubShirt: {fileID: 0}
-  PlayerModel: {fileID: 0}
+  MimeHat: {fileID: 137900}
+  MimeShirt: {fileID: 175618}
+  MimePants: {fileID: 165602}
+  MimeBands: {fileID: 151948}
+  MimeStocking: {fileID: 167506}
+  MimeShoes: {fileID: 122906}
+  DinoPants: {fileID: 138410}
+  DinoShirt: {fileID: 175258}
+  MedShirt: {fileID: 165278}
+  MedUnderpants: {fileID: 132270}
+  MedGloves: {fileID: 146532}
+  MedBoots: {fileID: 116876}
+  MedArmorPant: {fileID: 171646}
+  HubPants: {fileID: 105934}
+  HubShirt: {fileID: 176900}
+  PlayerModel: {fileID: 191362}
   Hub: 1
   Dino: 0
   Medieval: 0
@@ -4405,7 +4405,75 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: MimeHat
+      value: 
+      objectReference: {fileID: 137900}
+    - target: {fileID: 0}
+      propertyPath: MimeShirt
+      value: 
+      objectReference: {fileID: 175618}
+    - target: {fileID: 0}
+      propertyPath: MimePants
+      value: 
+      objectReference: {fileID: 165602}
+    - target: {fileID: 0}
+      propertyPath: MimeBands
+      value: 
+      objectReference: {fileID: 151948}
+    - target: {fileID: 0}
+      propertyPath: MimeStocking
+      value: 
+      objectReference: {fileID: 167506}
+    - target: {fileID: 0}
+      propertyPath: MimeShoes
+      value: 
+      objectReference: {fileID: 122906}
+    - target: {fileID: 0}
+      propertyPath: DinoShirt
+      value: 
+      objectReference: {fileID: 175258}
+    - target: {fileID: 0}
+      propertyPath: DinoPants
+      value: 
+      objectReference: {fileID: 138410}
+    - target: {fileID: 0}
+      propertyPath: MedShirt
+      value: 
+      objectReference: {fileID: 165278}
+    - target: {fileID: 0}
+      propertyPath: MedUnderpants
+      value: 
+      objectReference: {fileID: 132270}
+    - target: {fileID: 0}
+      propertyPath: MedGloves
+      value: 
+      objectReference: {fileID: 146532}
+    - target: {fileID: 0}
+      propertyPath: MedBoots
+      value: 
+      objectReference: {fileID: 116876}
+    - target: {fileID: 0}
+      propertyPath: MedArmorPant
+      value: 
+      objectReference: {fileID: 171646}
+    - target: {fileID: 0}
+      propertyPath: HubShirt
+      value: 
+      objectReference: {fileID: 176900}
+    - target: {fileID: 0}
+      propertyPath: HubPants
+      value: 
+      objectReference: {fileID: 105934}
+    - target: {fileID: 0}
+      propertyPath: PlayerModel
+      value: 
+      objectReference: {fileID: 191362}
+    - target: {fileID: 0}
+      propertyPath: m_Animator
+      value: 
+      objectReference: {fileID: 9524780}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 146138}

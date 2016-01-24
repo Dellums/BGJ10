@@ -98,7 +98,6 @@ function PlayerMoveScript(){
 	controller.Move(moveDirection * Time.deltaTime/Time.timeScale);
 
 	//Animations
-	m_Animator.SetFloat("Turn", Input.GetAxisRaw("Horizontal"));
 	m_Animator.SetFloat("Back", Input.GetAxisRaw("Vertical"));
 }
 
