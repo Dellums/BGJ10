@@ -30,6 +30,8 @@ ModelImporter:
     100044: MimeStockings
     100046: MimeTop
     100048: MimeHat
+    100050: HubPants
+    100052: HubTop
     400000: Boots
     400002: ClothsBottm
     400004: ClothsTop
@@ -55,6 +57,8 @@ ModelImporter:
     400044: MimeStockings
     400046: MimeTop
     400048: MimeHat
+    400050: HubPants
+    400052: HubTop
     2300000: Boots
     2300002: ClothsBottm
     2300004: ClothsTop
@@ -79,6 +83,8 @@ ModelImporter:
     2300042: MimeStockings
     2300044: MimeTop
     2300046: MimeHat
+    2300048: HubPants
+    2300050: HubTop
     3300000: Boots
     3300002: ClothsBottm
     3300004: ClothsTop
@@ -103,6 +109,8 @@ ModelImporter:
     3300042: MimeStockings
     3300044: MimeTop
     3300046: MimeHat
+    3300048: HubPants
+    3300050: HubTop
     4300000: Player
     4300002: Boots
     4300004: Hair
@@ -127,6 +135,8 @@ ModelImporter:
     4300042: MimePants
     4300044: MimeStockings
     4300046: MimeHat
+    4300048: HubTop
+    4300050: HubPants
     7400000: Default Take
     9500000: //RootNode
   materials:
