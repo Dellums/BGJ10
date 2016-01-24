@@ -1,13 +1,15 @@
 ﻿#pragma strict
 @script RequireComponent(CharacterController);
-var PlayerCam:Camera;
+var PlayerCam 		:Camera;
 
-var speed 		: float = 6.0;
-var backSpeed 	: float = 3.0;
-var jumpSpeed 	: float = 8.0;
-var rotateSpeed : float = 3.0;
-var gravity 	: float = 20.0;
+var speed 			: float = 6.0;
+var backSpeed 		: float = 3.0;
+var jumpSpeed 		: float = 8.0;
+var rotateSpeed 	: float = 3.0;
+var gravity 		: float = 20.0;
+var sprintModifier	: float = 5.0;
 
+var m_Animator 		: Animator;
 
 private var moveDirection : Vector3 = Vector3.zero;
 
@@ -78,7 +80,14 @@ function PlayerMoveScript(){
 			moveDirection *= speed - backSpeed;
 		}
 		else{
-			moveDirection *= speed;
+			if(Input.GetButton("Fire3")){
+				m_Animator.SetBool("Sprinting", true);
+				moveDirection *= (speed+sprintModifier);
+			}
+			else{
+				m_Animator.SetBool("Sprinting", false);
+				moveDirection *= speed;
+			}
 		}
 		if(Input.GetButton("Jump")){
 			moveDirection.y = jumpSpeed;
@@ -87,6 +96,10 @@ function PlayerMoveScript(){
 	//Apply Gravity
 	moveDirection.y -= gravity;
 	controller.Move(moveDirection * Time.deltaTime/Time.timeScale);
+
+	//Animations
+	m_Animator.SetFloat("Turn", Input.GetAxisRaw("Horizontal"));
+	m_Animator.SetFloat("Back", Input.GetAxisRaw("Vertical"));
 }
 
 

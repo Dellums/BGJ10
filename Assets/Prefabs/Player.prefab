@@ -2489,7 +2489,7 @@ Animator:
   m_GameObject: {fileID: 116770}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8eb995947f75dec40bb545f9a4fdaaaf, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0d72b6044a1692b488b43064c9dd5cdb, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2511,9 +2511,10 @@ MonoBehaviour:
   PlayerCam: {fileID: 2006834}
   speed: 6
   backSpeed: 2
-  jumpSpeed: 15
+  jumpSpeed: 20
   rotateSpeed: 3
-  gravity: 1
+  gravity: 1.3
+  m_Animator: {fileID: 9568452}
   PlayerSkins:
   - {fileID: 2100000, guid: 8c1e693a3c4bfcc4baccd337ecefacdd, type: 2}
   - {fileID: 2100000, guid: a0064298c09ec4049a453c8c0f274cd7, type: 2}
