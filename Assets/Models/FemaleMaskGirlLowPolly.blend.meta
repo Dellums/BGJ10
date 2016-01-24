@@ -24,6 +24,12 @@ ModelImporter:
     100032: MedBoots
     100034: MedClothBreastPlate
     100036: MedGloves
+    100038: MimeBands
+    100040: MimePants
+    100042: MimeShoes
+    100044: MimeStockings
+    100046: MimeTop
+    100048: MimeHat
     400000: Boots
     400002: ClothsBottm
     400004: ClothsTop
@@ -43,6 +49,12 @@ ModelImporter:
     400032: MedBoots
     400034: MedClothBreastPlate
     400036: MedGloves
+    400038: MimeBands
+    400040: MimePants
+    400042: MimeShoes
+    400044: MimeStockings
+    400046: MimeTop
+    400048: MimeHat
     2300000: Boots
     2300002: ClothsBottm
     2300004: ClothsTop
@@ -61,6 +73,12 @@ ModelImporter:
     2300030: MedBoots
     2300032: MedClothBreastPlate
     2300034: MedGloves
+    2300036: MimeBands
+    2300038: MimePants
+    2300040: MimeShoes
+    2300042: MimeStockings
+    2300044: MimeTop
+    2300046: MimeHat
     3300000: Boots
     3300002: ClothsBottm
     3300004: ClothsTop
@@ -79,6 +97,12 @@ ModelImporter:
     3300030: MedBoots
     3300032: MedClothBreastPlate
     3300034: MedGloves
+    3300036: MimeBands
+    3300038: MimePants
+    3300040: MimeShoes
+    3300042: MimeStockings
+    3300044: MimeTop
+    3300046: MimeHat
     4300000: Player
     4300002: Boots
     4300004: Hair
@@ -97,6 +121,12 @@ ModelImporter:
     4300030: MedGloves
     4300032: MedBoots
     4300034: MedClothBreastPlate
+    4300036: MimeShoes
+    4300038: MimeBands
+    4300040: MimeTop
+    4300042: MimePants
+    4300044: MimeStockings
+    4300046: MimeHat
     7400000: Default Take
     9500000: //RootNode
   materials:
