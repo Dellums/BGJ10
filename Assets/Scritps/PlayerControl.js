@@ -56,7 +56,12 @@ function Update () {
 	if (Mime){
 		MimePlayerControl();
 	}
-
+	if(Input.GetButton("Fire1")){
+		m_Animator.SetBool("Attacking", true);
+	}
+	else{
+		m_Animator.SetBool("Attacking", false);
+	}
 	PlayerMoveScript();
 }
 
@@ -76,18 +81,23 @@ function PlayerMoveScript(){
 	if(controller.isGrounded){
 		moveDirection = Vector3(0, 0, Input.GetAxisRaw("Vertical"));
 		moveDirection = transform.TransformDirection(moveDirection);
-		if(Input.GetAxisRaw("Vertical")<0){
-			moveDirection *= speed - backSpeed;
-		}
-		else{
-			if(Input.GetButton("Fire3")){
-				m_Animator.SetBool("Sprinting", true);
-				moveDirection *= (speed+sprintModifier);
+		if(true){//m_Animator.GetBool("Attacking") == false){
+			if(Input.GetAxisRaw("Vertical")<0){
+				moveDirection *= speed - backSpeed;
 			}
 			else{
-				m_Animator.SetBool("Sprinting", false);
-				moveDirection *= speed;
+				if(Input.GetButton("Fire3")){
+					m_Animator.SetBool("Sprinting", true);
+					moveDirection *= (speed+sprintModifier);
+				}
+				else{
+					m_Animator.SetBool("Sprinting", false);
+					moveDirection *= speed;
+				}
 			}
+		}
+		else{
+			moveDirection *= 0;
 		}
 		if(Input.GetButton("Jump")){
 			moveDirection.y = jumpSpeed;

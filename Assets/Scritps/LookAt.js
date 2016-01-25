@@ -6,5 +6,7 @@ function Awake () {
 }
 
 function Update () {
-	transform.LookAt(target);
+	if(Mathf.Abs(target.transform.position.z - transform.position.z) > .5){
+		transform.LookAt(target);
+	}
 }
